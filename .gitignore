@@ -1,0 +1,9 @@
+env/
+*.pyc
+__pycache__/
+*.vsix
+node_modules/
+.vscode-test/
+*.log
+.DS_Store
+documento*_extracted.json

@@ -1,0 +1,43 @@
+INFORME TÉCNICO - PROYECTO JSONEXTRACTOR
+
+Introducción
+============
+
+Este documento contiene información de prueba para validar la funcionalidad
+de extracción de contenido a formato JSON utilizando la librería Parsr.
+
+Objetivos del Proyecto
+=======================
+
+1. Extraer texto de documentos en múltiples formatos
+2. Convertir el contenido extraído a estructura JSON
+3. Mantener la jerarquía y organización del documento original
+4. Procesar documentos de manera automatizada
+
+Tecnologías Utilizadas
+=======================
+
+- Python 3.12
+- Parsr Client Library
+- JSON para serialización de datos
+- Virtual Environment para gestión de dependencias
+
+Características Principales
+============================
+
+El sistema permite:
+• Procesamiento automático de documentos
+• Detección de estructura (headers, párrafos, etc.)
+• Extracción de metadatos
+• Generación de salida en formato JSON estándar
+
+Conclusiones
+============
+
+La implementación de este sistema facilitará la automatización de la
+extracción de información de documentos, mejorando la eficiencia en el
+procesamiento de grandes volúmenes de información.
+
+Fecha: 27 de Noviembre, 2025
+Autor: Sistema JsonExtractor
+Versión: 1.0

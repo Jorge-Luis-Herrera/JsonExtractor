@@ -1,0 +1,62 @@
+{
+  "name": "json-extractor",
+  "displayName": "JSON Extractor",
+  "description": "Convierte documentos de texto (.txt y .md) a formato JSON estructurado con un simple atajo de teclado (Ctrl+Shift+J)",
+  "version": "1.0.0",
+  "publisher": "Jorge-Luis-Herrera",
+  "author": {
+    "name": "Jorge Luis Herrera"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jorge-Luis-Herrera/JsonExtractor"
+  },
+  "homepage": "https://github.com/Jorge-Luis-Herrera/JsonExtractor#readme",
+  "bugs": {
+    "url": "https://github.com/Jorge-Luis-Herrera/JsonExtractor/issues"
+  },
+  "keywords": [
+    "json",
+    "extractor",
+    "converter",
+    "markdown",
+    "text",
+    "structured data",
+    "document parser"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Formatters"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "jsonExtractor.convertToJson",
+        "title": "JSON Extractor: Convert Document to JSON"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "jsonExtractor.convertToJson",
+        "key": "ctrl+shift+j",
+        "mac": "cmd+shift+j",
+        "when": "editorTextFocus && resourceExtname =~ /\\.(txt|md)$/"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "16.x",
+    "eslint": "^8.41.0"
+  }
+}
