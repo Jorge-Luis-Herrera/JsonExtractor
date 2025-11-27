@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.1] - 2025-11-27
+
+### Changed
+- Nombre simplificado de `jsonextractor-herrera` a `jsonextractor`
+
 ## [1.0.0] - 2025-11-27
 
 ### Added
