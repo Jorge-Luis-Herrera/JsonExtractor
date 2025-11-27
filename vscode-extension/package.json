@@ -1,11 +1,12 @@
 {
-  "name": "json-extractor",
+  "name": "jsonextractor-herrera",
   "displayName": "JSON Extractor",
   "description": "Convierte documentos de texto (.txt y .md) a formato JSON estructurado con un simple atajo de teclado (Ctrl+Shift+J)",
   "version": "1.0.0",
   "publisher": "Jorge-Luis-Herrera",
   "author": {
-    "name": "Jorge Luis Herrera"
+    "name": "Jorge Luis Herrera",
+    "email": "herreraceciliajorgeluis@gmail.com"
   },
   "license": "MIT",
   "repository": {
